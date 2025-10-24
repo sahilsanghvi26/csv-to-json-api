@@ -2,11 +2,12 @@
   "name": "csv-to-json-api",
   "version": "1.0.0",
   "main": "src/index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sahil Sanghvi",
   "license": "ISC",
   "description": "",
   "dependencies": {
