@@ -31,7 +31,7 @@ Before running, make sure you have:
 Clone this repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/sahilsanghvi26/csv-to-json-api/>
 cd csv-to-json-api
 npm install
 ```
