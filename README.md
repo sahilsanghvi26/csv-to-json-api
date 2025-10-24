@@ -7,12 +7,12 @@ It also generates an **Age Distribution Report** right in the console after succ
 
 ##  Features
 
-- **Custom CSV Parser** – Built without any external CSV library (pure Node.js parsing).[1]
-- **JSON Storage** – Automatically handles nested `address` and `additional_info` fields.[2]
-- **Error Handling** – Skips invalid rows (like missing or non-numeric ages).[3]
-- **PostgreSQL Integration** – Inserts parsed user data directly into a database.[4]
-- **Age Report Generation** – Displays a categorized age report (<20, 20–40, 40–60, >60).[2]
-- **Lightweight & Developer Friendly** – Minimal setup and easy to extend.[5]
+- **Custom CSV Parser** – Built without any external CSV library (pure Node.js parsing).
+- **JSON Storage** – Automatically handles nested `address` and `additional_info` fields.
+- **Error Handling** – Skips invalid rows (like missing or non-numeric ages).
+- **PostgreSQL Integration** – Inserts parsed user data directly into a database.
+- **Age Report Generation** – Displays a categorized age report (<20, 20–40, 40–60, >60).
+- **Lightweight & Developer Friendly** – Minimal setup and easy to extend.
 
 ***
 
