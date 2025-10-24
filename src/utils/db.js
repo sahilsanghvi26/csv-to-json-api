@@ -8,10 +8,10 @@ export const pool = new Pool({
 });
 
 export const insertUser = async (user) => {
-    const {name , age ,address, additonal_info} = user;
+    const {name , age ,address, additional_info} = user;
     await pool.query(
-        `INSERT INTO users (name,age,address,additonal_info)
+        `INSERT INTO users (name,age,address,additional_info)
         VALUES ($1, $2 ,$3, $4)`,
-        [name,age,address,additonal_info]
+        [name,age,JSON.stringify(address || {}),JSON.stringify(additional_info || {})]
     );
 };
